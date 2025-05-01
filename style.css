@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+.container h1 {
+  color: #333;
+}
+.additem {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.additem input,
+.additem select,
+.additem button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.additem button {
+  width: 40%;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+.additem button:hover {
+  background-color: #218838;
+}
+.task-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.todayHeading {
+  margin-top: 30px;
+}
+.task-container h2 {
+  text-align: left;
+  color: #555;
+}
+#completedTasks ul {
+  background-color: #3d5a4c;
+    color: white;
+    
+}
+.task-container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  list-style: none;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+}
+#todayTasks li,
+#futureTasks li,
+#completedTasks li {
+  display: block;
+  width: 100%;
+  word-wrap: break-word;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+.icon-list {
+  width: 10%;
+}
+.icon-list img {
+  margin: 7px;
+}
+
